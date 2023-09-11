@@ -2,7 +2,7 @@ const commonjs = require('@rollup/plugin-commonjs');
 const resolve = require('@rollup/plugin-node-resolve');
 const livereload = require('rollup-plugin-livereload');
 const svelte = require('rollup-plugin-svelte');
-const { terser } = require('@rollup/plugin-terser');
+const terser = require('@rollup/plugin-terser');
 const { markdown } = require('svelte-preprocess-markdown');
 const autoPreprocess = require('svelte-preprocess');
 const css = require('rollup-plugin-css-only');
@@ -47,7 +47,7 @@ module.exports = {
     commonjs(),
     !production && serve(),
     !production && livereload('public'),
-    production && terser,
+    production && terser(),
   ],
   watch: {
     clearScreen: false,

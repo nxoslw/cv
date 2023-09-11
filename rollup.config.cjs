@@ -47,7 +47,7 @@ module.exports = {
     commonjs(),
     !production && serve(),
     !production && livereload('public'),
-    production && terser(),
+    production && terser,
   ],
   watch: {
     clearScreen: false,

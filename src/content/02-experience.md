@@ -1,6 +1,6 @@
 ## Experience
 
-- ## June 2020 – present
+- ##### June 2020 – present
 
   ### Freelance
 
@@ -13,7 +13,7 @@
 
   > _LARAVEL_ _VueJS_ _NuxtJS_ _TailwindCSS_
 
-- ## March 2015 - May 2020
+- ##### March 2015 - May 2020
 
   ### BITSNACH
 
@@ -27,7 +27,7 @@
 
   > _PHP_ _MySQL_ _LARAVEL_ _VueJS_ _LESS_ _JavaScript_ _jQuery_ _Bootstrap_ _TailwindCSS_ _NodeJS_
 
-- ## 2014 – March 2015
+- ##### 2014 – March 2015
 
   ### Freelance
 
@@ -35,7 +35,7 @@
 
   > _HTML_ _CSS_ _Bootstrap_ _JavaScript_ _jQuery_
 
-- ## 15th November 1997
+- ##### 15th November 1997
 
   ### Born
 

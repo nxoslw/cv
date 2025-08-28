@@ -62,12 +62,36 @@ footer {
     }
   }
 
-  h3,
-  h4 {
-    &::before {
-      display: inline-block;
-      margin-right: 0.5rem;
-      width: 2.75rem;
+  @media (width < 1920px) {
+    h3,
+    h4 {
+      &::before {
+        display: inline-block;
+        margin-right: 0.5rem;
+        width: 2.75rem;
+      }
+    }
+  }
+
+  @media (width >= 1280px) {
+    h3,
+    h4 {
+      &::before {
+        display: inline-block;
+        margin-right: 0.5rem;
+        width: 3rem;
+      }
+    }
+  }
+
+  @media (width >= 1920px) {
+    h3,
+    h4 {
+      &::before {
+        display: inline-block;
+        margin-right: 0.5rem;
+        width: 4rem;
+      }
     }
   }
 

@@ -42,4 +42,20 @@
       transition: none;
     }
   }
+
+  @media (width >= 1280px) {
+    .wrapper {
+      max-width: 90vw;
+      width: 1280px;
+      font-size: 24px;
+    }
+
+  }
+  @media (width >= 1920px) {
+    .wrapper {
+      max-width: 90vw;
+      width: 1920px;
+      font-size: 26px;
+    }
+  }
 </style>

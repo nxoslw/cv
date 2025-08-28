@@ -154,7 +154,7 @@
 
       // Calculate width and height
       ctx.font = font;
-      this.#cellWidth = Math.floor(ctx.measureText('0').width - 0.5);
+      this.#cellWidth = Math.floor(ctx.measureText('0').width - 0.1);
       this.#cellHeight = Math.floor(this.#cellWidth * 1.4);
 
       const shapeWidth = Math.max(...this.#shape.map((line) => line.length));
@@ -206,6 +206,34 @@
     @media screen and (orientation: portrait) {
       min-height: 60vh;
       padding: 0;
+    }
+
+    @media (width >= 1280px) {
+      .wrapper {
+        max-width: 90vw;
+        width: 1280px;
+        font-size: 24px;
+      }
+
+    }
+    @media (width >= 1920px) {
+      .wrapper {
+        max-width: 90vw;
+        width: 1920px;
+        font-size: 30px;
+      }
+    }
+  }
+
+  @media (width >= 1280px) {
+    header {
+      font-size: 1.6em;
+    }
+
+  }
+  @media (width >= 1920px) {
+    header {
+      font-size: 2em;
     }
   }
 

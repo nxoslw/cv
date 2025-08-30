@@ -37,7 +37,13 @@
     </Section>
   {/each}
 
-  <img src="images/nxo.jpg" id="me" alt="nxo" />
+  <picture>
+    <source srcset="images/nxo-sm.webp" type="image/webp" media="(max-width: 480px)">
+    <source srcset="images/nxo-md.webp" type="image/webp" media="(max-width: 800px)">
+    <source srcset="images/nxo.webp" type="image/webp" media="(min-width: 801px)">
+    <source srcset="images/nxo.jpg" type="image/jpeg" media="(min-width: 801px)">
+    <img src="images/nxo.jpg" alt="nxo" id="me" loading="lazy">
+  </picture>
 </main>
 
 <footer id="footer">
@@ -54,7 +60,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   @import '../styles/global';
 
   #me {
-    width: 100%;
+    width: 100vw;
+    object-fit: cover;
   }
 
   #footer {
